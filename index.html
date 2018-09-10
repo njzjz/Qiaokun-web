@@ -282,22 +282,28 @@
           <div class="col-lg-8 mx-auto text-center">
             <h2 class="section-heading">联系我们<!--{en}Contact us--></h2>
             <hr class="my-4">
-            <p class="mb-5">上海巧坤化工科技有限公司<br>Shanghai Qiaokun Chemical Technology Co., LTD<br><br>公司地址：上海市闵行区紫竹高新区紫月路1299号<!--{en}Address: 1299 Ziyue Road, Minhang District, Shanghai--><br><b>电话：<!--{en}Phone: --></b>021-61016539 <b>传真：<!--{en}Fax: --></b>021-61016538 <b>E-mail：<!--{en}Email: --></b><a href="mailto:info@shqkchem.com">info@shqkchem.com</a></p>
+            <p class="mb-5">上海巧坤化工科技有限公司<br>Shanghai Qiaokun Chemical Technology Co., LTD<br><br><b>公司地址：<!--{en}Address: --></b>上海市闵行区紫竹高新区紫月路1299号<!--{en}1299 Ziyue Road, Minhang District, Shanghai--><br><b>电话：<!--{en}Phone: --></b>021-61016539 <b>传真：<!--{en}Fax: --></b>021-61016538 <b>E-mail：<!--{en}Email: --></b><a href="mailto:info@shqkchem.com">info@shqkchem.com</a><br><b>微信公众号：<!--{en}Wechat Official account: --></b><a class="qrcode" href="img/qrcode.jpg">shqkchem</a></p>
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-4 ml-auto text-center">
+          <div class="col-lg-3 ml-auto text-center">
             <i class="fa fa-phone fa-3x mb-3 sr-contact"></i>
             <p>021-61016539</p>
           </div>
-		  <div class="col-lg-4 ml-auto text-center">
+		  <div class="col-lg-3 ml-auto text-center">
             <i class="fa fa-fax fa-3x mb-3 sr-contact"></i>
             <p>021-61016538</p>
           </div>
-          <div class="col-lg-4 mr-auto text-center">
+          <div class="col-lg-3 mr-auto text-center">
             <i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
             <p>
               <a href="mailto:info@shqkchem.com">info@shqkchem.com</a>
+            </p>
+          </div>
+		  <div class="col-lg-3 mr-auto text-center">
+            <i class="fa fa-wechat fa-3x mb-3 sr-contact"></i>
+            <p>
+              <a class="qrcode" href="img/qrcode.jpg">shqkchem</a>
             </p>
           </div>
         </div>
@@ -328,6 +334,14 @@
 	<script type="text/javascript" src="js/translater.min.js"></script>
 	<script type="text/javascript">
 	  var tran = new Translater();
+	  $(".qrcode").magnificPopup({
+        type: "image",
+        tLoading: "Loading image #%curr%...",
+        mainClass: "mfp-img-mobile",
+        image: {
+            tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
+        }
+    })
 	</script>
 
   </body>
