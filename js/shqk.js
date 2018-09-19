@@ -13,6 +13,19 @@ $(document).ready(function() {
 		preloader: false,
 		focus: '#username',
 	});
+	$(".popup-activity").magnificPopup({
+        type: "image",
+        tLoading: "Loading image #%curr%...",
+        mainClass: "mfp-img-mobile",
+        gallery: {
+            enabled: !0,
+            navigateByImgClick: !0,
+            preload: [0, 1]
+        },
+        image: {
+            tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
+        }
+    })
 	var map = new AMap.Map('map', {
         zoom:13,
         center: [121.439624,31.014617],
