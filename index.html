@@ -281,7 +281,7 @@
           <div class="col-lg-8 mx-auto text-center">
             <h2 class="section-heading"><i class="fa fa-phone"></i> 联系我们<!--{en} Contact us--></h2>
             <hr class="my-4">
-            <p class="mb-5"><strong>上海巧坤化工科技有限公司</strong><br>Shanghai Qiaokun Chemical Technology Co., LTD<br><br><i class="fa fa-map-marker"></i> <b>公司地址：<!--{en}Address: --></b>上海市闵行区紫竹高新区紫月路1299号<!--{en}1299 Ziyue Road, Minhang District, Shanghai--><br><i class="fa fa-phone"></i> <b>电话：<!--{en}Phone: --></b>021-61016539<br><i class="fa fa-fax"></i> <b>传真：<!--{en}Fax: --></b>021-61016538<br><i class="fa fa-envelope-o"></i> <b>E-mail：<!--{en}Email: --></b><a href="mailto:info@shqkchem.com">info@shqkchem.com</a><br><i class="fa fa-wechat"></i> <b>微信公众号：<!--{en}Wechat Official account: --></b><a class="qrcode" href="img/qrcode.jpg">shqkchem</a></p>
+            <p class="mb-5"><strong>上海巧坤化工科技有限公司</strong><br>Shanghai Qiaokun Chemical Technology Co., LTD<br><br><i class="fa fa-map-marker"></i> <b>公司地址：<!--{en}Address: --></b><a class="popup-modal" href="#map">上海市闵行区紫竹高新区紫月路1299号</a><!--{en}1299 Ziyue Road, Minhang District, Shanghai--><br><i class="fa fa-phone"></i> <b>电话：<!--{en}Phone: --></b>021-61016539<br><i class="fa fa-fax"></i> <b>传真：<!--{en}Fax: --></b>021-61016538<br><i class="fa fa-envelope-o"></i> <b>E-mail：<!--{en}Email: --></b><a href="mailto:info@shqkchem.com">info@shqkchem.com</a><br><i class="fa fa-wechat"></i> <b>微信公众号：<!--{en}Wechat Official account: --></b><a class="qrcode" href="img/qrcode.jpg">shqkchem</a></p>
           </div>
         </div>
         <div class="row">
@@ -308,6 +308,7 @@
         </div>
       </div>
     </section>
+	<div id="map" style="height:500px;" class="mfp-hide">11</div>
 	
 	<section class="bg-dark text-white" id="foot">
       <div class="container">
@@ -331,17 +332,8 @@
     <!-- Custom scripts for this template -->
     <script src="js/creative.min.js"></script>
 	<script type="text/javascript" src="js/translater.min.js"></script>
-	<script type="text/javascript">
-	  var tran = new Translater();
-	  $(".qrcode").magnificPopup({
-        type: "image",
-        tLoading: "Loading image #%curr%...",
-        mainClass: "mfp-img-mobile",
-        image: {
-            tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
-        }
-    })
-	</script>
+	<script type="text/javascript" src="https://webapi.amap.com/maps?v=1.4.10&key=6d0dde77e5ac88bb604920cb3bcb8f0d"></script> 
+	<script type="text/javascript" src="js/shqk.js"></script>
 
   </body>
 
