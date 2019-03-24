@@ -31,6 +31,7 @@ const GoogleFontsPlugin = require("@beyonk/google-fonts-webpack-plugin")
 const CnameWebpackPlugin = require('cname-webpack-plugin');
 const SitemapWebpackPlugin = require('sitemap-webpack-plugin').default;
 const RobotstxtPlugin = require("robotstxt-webpack-plugin");
+const PacktrackerPlugin = require('@packtracker/webpack-plugin')
 
 
 module.exports = {
@@ -154,6 +155,12 @@ module.exports = {
 			],
 			sitemap: "http://www.shqkchem.com/sitemap.xml",
 			host: "http://www.shqkchem.com"
+		}),
+		    new PacktrackerPlugin({
+			project_token: '72224453-f421-46dd-aad7-11f7754d25dc',
+			upload: true,
+			fail_build: true,
+			branch: process.env.TRAVIS_BRANCH || "master",
 		})
 	]
 };
