@@ -28,6 +28,10 @@ const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const WebpackCdnPlugin = require('webpack-cdn-plugin');
 const GoogleFontsPlugin = require("@beyonk/google-fonts-webpack-plugin")
+const CnameWebpackPlugin = require('cname-webpack-plugin');
+const SitemapWebpackPlugin = require('sitemap-webpack-plugin').default;
+const RobotstxtPlugin = require("robotstxt-webpack-plugin");
+
 
 module.exports = {
 	module: {
@@ -132,6 +136,24 @@ module.exports = {
 				{ family: "Merriweather", variants: ["400", "300", "300italic", "400italic", "700", "700italic", "900", "900italic"] }
 			],
 			local: false
+		}),
+		new CnameWebpackPlugin({
+			domain: 'qk.njzjz.win',
+		}),
+		new SitemapWebpackPlugin('http://www.shqkchem.com', ['/'], {
+			lastMod: true,
+			changeFreq: 'monthly',
+			priority: '1.0'
+		}),
+		new RobotstxtPlugin({
+			policy: [
+				{
+					userAgent: "*",
+					allow: "/",
+				}
+			],
+			sitemap: "http://www.shqkchem.com/sitemap.xml",
+			host: "http://www.shqkchem.com"
 		})
 	]
 };
