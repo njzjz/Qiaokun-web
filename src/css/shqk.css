@@ -1,34 +1,35 @@
 #mainNav {
- background-color: #212529;
-}
-@media (min-width: 992px) {
-  #mainNav {
-	background-color: transparent;
-  }
-  #mainNav.navbar-shrink {
-	background-color: #212529;
-  }
+	background-color: #212529!important;
 }
 
-#mainNav .navbar-nav>li.nav-item>a.nav-link,#mainNav .navbar-nav>li.nav-item>a.nav-link:focus {
+@media (min-width: 992px) {
+	#mainNav {
+		background-color: transparent;
+	}
+	#mainNav.navb {
+		background-color: #212529!important;
+	}
+}
+
+#mainNav .navbar-nav>li.nav-item>a.nav-link, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus {
 	color: #fff!important;
 }
 
-.imgbg{
+.imgbg {
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height:100%;
+	height: 100%;
 }
 
-#info{
+#info {
 	background-image: url(https://ws1.sinaimg.cn/large/6611dfacly1fw5ht5nlvej209x03zgm5.jpg);
 }
 
-#hire{
+#hire {
 	background-image: url(https://ws1.sinaimg.cn/large/6611dfacly1fw5hu4a9edj21hc0e8n07.jpg);
 }
 
-#map{
-	height:500px;
+#map {
+	height: 500px;
 }
