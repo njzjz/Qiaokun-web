@@ -609,10 +609,10 @@
   resolved "http://registry.npm.taobao.org/@fortawesome/fontawesome-free/download/@fortawesome/fontawesome-free-5.7.2.tgz#1498c3eb78ee7c78c5488418707de90aaf58d5d7"
   integrity sha1-FJjD63jufHjFSIQYcH3pCq9Y1dc=
 
-"@packtracker/webpack-plugin@^2.0.0":
+"@packtracker/webpack-plugin@2.0.0":
   version "2.0.0"
-  resolved "http://registry.npm.taobao.org/@packtracker/webpack-plugin/download/@packtracker/webpack-plugin-2.0.0.tgz#c3e27e7986baa05135337d680460eb5bf2c2a910"
-  integrity sha1-w+J+eYa6oFE1M31oBGDrW/LCqRA=
+  resolved "https://registry.yarnpkg.com/@packtracker/webpack-plugin/-/webpack-plugin-2.0.0.tgz#c3e27e7986baa05135337d680460eb5bf2c2a910"
+  integrity sha512-sl02dU1qyd/dIIbUaaSi7cU44COAwelP8yqtgZzxrdrTYxwWTj/be6iRaBpO0oj/Rx5l5+pU0XeupKJjqLMQhA==
   dependencies:
     lodash "^4.17.11"
     minimist "^1.2.0"
