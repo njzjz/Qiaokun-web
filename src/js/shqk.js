@@ -1,4 +1,4 @@
-var tran = new Translater();
+window.tran = new Translater();
 $(document).ready(function() {
 	$(".qrcode").magnificPopup({
         type: "image",
