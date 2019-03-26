@@ -1,7 +1,7 @@
 {
   "scripts": {
     "build": "webpack -p --progress",
-    "now-build": "yarn build"
+    "now-build": "npm run build"
   },
   "devDependencies": {
     "@babel/core": "7.4.0",
