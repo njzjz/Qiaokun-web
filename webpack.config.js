@@ -158,7 +158,7 @@ module.exports = {
 		}),
 		    new PacktrackerPlugin({
 			project_token: '72224453-f421-46dd-aad7-11f7754d25dc',
-			upload: true,
+			upload: process.env.CI === 'true',
 			fail_build: true,
 			branch: process.env.TRAVIS_BRANCH || "master",
 		})
