@@ -5,7 +5,7 @@
   },
   "bundlesize":[
 	{
-		"path": "./dist/"
+		"path": "./dist/*"
 	}
   ],
   "devDependencies": {
