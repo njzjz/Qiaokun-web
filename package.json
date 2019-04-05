@@ -1,15 +1,20 @@
 {
   "scripts": {
-    "build": "webpack -p --progress",
+    "build": "webpack -p --progress && bundlesize",
     "now-build": "npm run build"
   },
+  "bundlesize":[
+	{
+		"path": "./dist/*"
+	}
+  ],
   "devDependencies": {
     "@babel/core": "7.4.3",
     "@babel/preset-env": "7.4.3",
     "@beyonk/google-fonts-webpack-plugin": "1.2.3",
-    "@packtracker/webpack-plugin": "2.0.1",
     "babel-loader": "8.0.5",
     "babel-plugin-syntax-dynamic-import": "6.18.0",
+    "bundlesize": "^0.17.1",
     "cname-webpack-plugin": "1.0.5",
     "css-loader": "2.1.1",
     "html-webpack-plugin": "3.2.0",
