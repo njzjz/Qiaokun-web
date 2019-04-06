@@ -122,7 +122,6 @@ module.exports = {
 				{ name: 'jquery', var: '$', path: 'dist/jquery.min.js' },
 				{ name: 'bootstrap', path: 'dist/js/bootstrap.min.js', style: 'dist/css/bootstrap.min.css' },
 				{ name: 'jquery.easing', path: 'jquery.easing.min.js' },
-				{ name: 'scrollreveal', path: 'dist/scrollreveal.min.js' },
 				{ name: 'magnific-popup', path: 'dist/jquery.magnific-popup.min.js', style: 'dist/magnific-popup.css' },
 				{ name: 'startbootstrap-creative', path: 'js/creative.min.js', style: 'css/creative.min.css' },
 				{ name: 'translater.js', var: 'tran', path: 'dist/translater.min.js' },
