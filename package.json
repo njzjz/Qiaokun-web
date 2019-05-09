@@ -23,7 +23,7 @@
     "sitemap-webpack-plugin": "0.6.0",
     "style-loader": "0.23.1",
     "uglifyjs-webpack-plugin": "2.1.2",
-    "webpack": "4.30.0",
+    "webpack": "4.31.0",
     "webpack-cdn-plugin": "3.1.1",
     "webpack-cli": "3.3.2"
   },
