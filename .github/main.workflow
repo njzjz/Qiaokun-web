@@ -15,6 +15,7 @@ action "yarn build" {
     CI_REPO_NAME = "qiaokun-web"
     CI = "github_actions"
   }
+  secrets = ["BUNDLESIZE_GITHUB_TOKEN"]
 }
 
 action "Filters for GitHub Actions" {
