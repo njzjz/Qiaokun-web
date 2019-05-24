@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "webpack -p --progress && bundlesize",
+    "build": "webpack -p --progress && CI_COMMIT_SHA=$GITHUB_SHA bundlesize",
     "now-build": "npm run build"
   },
   "bundlesize": [
