@@ -9,6 +9,12 @@ action "yarn build" {
   uses = "Borales/actions-yarn@master"
   needs = ["yarn install"]
   args = "build"
+  env = {
+    CI_COMMIT_MESSAGE = ""
+    CI_REPO_OWNER = "njzjz"
+    CI_REPO_NAME = "qiaokun-web"
+    CI = "github_actions"
+  }
 }
 
 action "Filters for GitHub Actions" {
