@@ -4843,10 +4843,10 @@ watchpack@^1.5.0:
     graceful-fs "^4.1.2"
     neo-async "^2.5.0"
 
-webpack-cdn-plugin@3.1.1:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/webpack-cdn-plugin/-/webpack-cdn-plugin-3.1.1.tgz#df8fecfe8d491d666d75dc8fa6116fd3c67e5d8b"
-  integrity sha512-9Nhme7Q6oGwIx5gUipB61Z1qw1bqs4bqIekR1tFBD5IUt7uxlRieMF55FVlKdLzq5eEzt5Z189kzZbtSYp4Peg==
+webpack-cdn-plugin@3.1.2:
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/webpack-cdn-plugin/-/webpack-cdn-plugin-3.1.2.tgz#e6f54f2280206e33e8b14b788572bd8cf7537115"
+  integrity sha512-s2hqoa02HGt7u1ZRKGHfzVncC4VMeKvsR7Uq8CURJFMsllNLteF54xOfSTXG1O2BZq/gZpGd2ytz56+4ncc22Q==
 
 webpack-cli@3.3.3:
   version "3.3.3"
