@@ -1372,10 +1372,10 @@ cliui@^5.0.0:
     strip-ansi "^5.2.0"
     wrap-ansi "^5.1.0"
 
-cname-webpack-plugin@1.0.5:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/cname-webpack-plugin/-/cname-webpack-plugin-1.0.5.tgz#91b65e9a78f805adb19f0f79a1cc100a63624e51"
-  integrity sha512-ulckmdPC/cXFiZgDW1thbMYdFrhJCfYXIyiij5L2T0S9rpndF+m+Sq1wh+WZ92n4f5vn2DM1nYs/r1hw3iyoBw==
+cname-webpack-plugin@2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/cname-webpack-plugin/-/cname-webpack-plugin-2.0.0.tgz#99c55216de6afbf89815a6df8108b554875e9254"
+  integrity sha512-e8PX7XZmYm5I0AS0hMYsXyQbZfOt3RxNMnNpn5iWU1KctIBBsh1kjRNPnNWO1RBXD+ARvaevyXmPPfNC2GfY7g==
 
 code-point-at@^1.0.0:
   version "1.1.0"
