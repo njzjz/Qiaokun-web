@@ -35,5 +35,6 @@
     "magnific-popup": "1.1.0",
     "startbootstrap-creative": "5.1.7",
     "translater.js": "1.0.12"
-  }
+  },
+  "engines" : { "node" : ">=10.16.0" }
 }
