@@ -6,26 +6,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
-    - name: yarn install
-      uses: Borales/actions-yarn@master
+    - uses: actions/setup-node@v1
       with:
-        args: install
-    - name: yarn build
-      uses: Borales/actions-yarn@master
-      env:
-        BUNDLESIZE_GITHUB_TOKEN: ${{ secrets.BUNDLESIZE_GITHUB_TOKEN }}
-        CI: github_actions
-        CI_COMMIT_MESSAGE: ""
-        CI_REPO_NAME: qiaokun-web
-        CI_REPO_OWNER: njzjz
-      with:
-        args: build
-    - name: Filters for GitHub Actions
-      uses: actions/bin/filter@3c0b4f0e63ea54ea5df2914b4fabf383368cd0da
-      with:
-        args: branch master
+        node-version: 12
+    - run: npm install -g yarn
+    - run: yarn install
+    - run: yarn build
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@master
+      if: github.ref == 'refs/heads/master'
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         BRANCH: gh-pages
