@@ -127,7 +127,8 @@ module.exports = {
 				{ name: 'translater.js', var: 'tran', path: 'dist/translater.min.js' },
 				{ name: 'font-awesome', style: 'css/font-awesome.min.css', cssOnly: true },
 			],
-			publicPath: '/node_modules'
+			publicPath: '/node_modules',
+			prodUrl: "//cdn.jsdelivr.net/npm/:name@:version/:path"
 		}),
 		new GoogleFontsPlugin({
 			fonts: [
