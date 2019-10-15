@@ -48,20 +48,12 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        use: [
-          {
-            loader: MiniCssExtractPlugin.loader
-          },
-          "css-loader"
-        ]
+        use: [{ loader: MiniCssExtractPlugin.loader }, "css-loader"]
       }
     ]
   },
 
-  output: {
-    filename: "[name].[chunkhash].js",
-    publicPath: "./"
-  },
+  output: { filename: "[name].[chunkhash].js", publicPath: "./" },
 
   mode: "production",
 
@@ -141,21 +133,14 @@ module.exports = {
       ],
       local: false
     }),
-    new CnameWebpackPlugin({
-      domain: "qk.njzjz.win"
-    }),
+    new CnameWebpackPlugin({ domain: "qk.njzjz.win" }),
     new SitemapWebpackPlugin("http://www.shqkchem.com", ["/"], {
       lastMod: true,
       changeFreq: "monthly",
       priority: "1.0"
     }),
     new RobotstxtPlugin({
-      policy: [
-        {
-          userAgent: "*",
-          allow: "/"
-        }
-      ],
+      policy: [{ userAgent: "*", allow: "/" }],
       sitemap: "http://www.shqkchem.com/sitemap.xml",
       host: "http://www.shqkchem.com"
     })
