@@ -36,5 +36,7 @@
     "startbootstrap-creative": "5.1.8",
     "translater.js": "1.0.12"
   },
-  "engines" : { "node" : ">=10.15.0" }
+  "engines": {
+    "node": ">=10.15.0"
+  }
 }
