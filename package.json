@@ -10,7 +10,7 @@
   ],
   "devDependencies": {
     "@babel/core": "7.6.4",
-    "@babel/preset-env": "7.6.3",
+    "@babel/preset-env": "7.7.1",
     "@beyonk/google-fonts-webpack-plugin": "1.2.3",
     "babel-loader": "8.0.6",
     "babel-plugin-syntax-dynamic-import": "6.18.0",
