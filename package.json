@@ -21,7 +21,7 @@
     "mini-css-extract-plugin": "0.8.2",
     "robotstxt-webpack-plugin": "7.0.0",
     "sitemap-webpack-plugin": "0.6.0",
-    "style-loader": "1.0.2",
+    "style-loader": "1.1.1",
     "uglifyjs-webpack-plugin": "2.2.0",
     "webpack": "4.41.4",
     "webpack-cdn-plugin": "3.2.0",
