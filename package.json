@@ -9,7 +9,7 @@
     }
   ],
   "devDependencies": {
-    "@babel/core": "7.10.1",
+    "@babel/core": "7.10.2",
     "@babel/preset-env": "7.10.1",
     "@beyonk/google-fonts-webpack-plugin": "1.2.3",
     "babel-loader": "8.1.0",
