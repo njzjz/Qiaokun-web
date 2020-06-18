@@ -25,7 +25,7 @@
     "uglifyjs-webpack-plugin": "2.2.0",
     "webpack": "4.43.0",
     "webpack-cdn-plugin": "3.3.1",
-    "webpack-cli": "3.3.11"
+    "webpack-cli": "3.3.12"
   },
   "dependencies": {
     "bootstrap": "4.5.0",
