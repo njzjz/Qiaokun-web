@@ -830,10 +830,10 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
-"@beyonk/google-fonts-webpack-plugin@1.4.2":
-  version "1.4.2"
-  resolved "https://registry.yarnpkg.com/@beyonk/google-fonts-webpack-plugin/-/google-fonts-webpack-plugin-1.4.2.tgz#f8390fefc73c9af37209fff9c5ec3a01d2cd465b"
-  integrity sha512-qWuTIjMpMgd6Nseoz/fruzqw3DMXVdh2n05/32T52KJbfcCFQi71o4tmFe0QEyyG05+Y7YyTamqgotgo10Xrrg==
+"@beyonk/google-fonts-webpack-plugin@1.5.0":
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@beyonk/google-fonts-webpack-plugin/-/google-fonts-webpack-plugin-1.5.0.tgz#6be656264ee172a62e0f66d4e29c7a3214ac2864"
+  integrity sha512-jl4n6z+qgwjB+qJbEwznPdYMBAUQMJeuD+m7TRQA3brMRT/Z/Z2v1KYn0i4qwvjpLUh7mb3xQKa2QKpiRWqciA==
   dependencies:
     lodash "^4.17.4"
     md5 "^2.2.1"
