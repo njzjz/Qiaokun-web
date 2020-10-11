@@ -66,7 +66,6 @@ module.exports = {
       chunks: "async",
       minChunks: 1,
       minSize: 30000,
-      name: true
     }
   },
   plugins: [
