@@ -1,0 +1,36 @@
+#mainNav {
+	background-color: #212529!important;
+}
+
+@media (min-width: 992px) {
+	#mainNav {
+		background-color: transparent;
+	}
+	#mainNav.navb {
+		background-color: #212529!important;
+	}
+}
+
+#mainNav .navbar-nav>li.nav-item>a.nav-link, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus {
+	color: #fff!important;
+}
+
+.imgbg {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+}
+
+#info {
+	background-image: url(https://ae01.alicdn.com/kf/HTB1P9zaTrrpK1RjSZTEq6AWAVXaC.jpg);
+}
+
+#hire {
+	background-image: url(https://ae01.alicdn.com/kf/HTB1UiO8TxTpK1RjSZR0q6zEwXXaQ.jpg);
+}
+
+#map {
+	height: 500px;
+}
+

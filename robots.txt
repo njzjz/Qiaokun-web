@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: http://www.shqkchem.com/sitemap.xml
+Host: www.shqkchem.com
